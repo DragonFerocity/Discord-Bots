@@ -3,7 +3,7 @@ require 'open-uri'
 require 'net/https'
 
 $usedLetters = Array.new
-bot = Discordrb::Commands::CommandBot.new token: 'MjQ1Mjg4MTU5MDAzNDEwNDMz.CwJ6bA.I07_4YjdQ9isJ_jhyIBS8-wPNBQ', client_id: 245288159003410433, prefix: '!'
+bot = Discordrb::Commands::CommandBot.new token: '....', client_id: ..., prefix: '!'
 
 puts "This is the invite token #{bot.invite_url}."
 
